@@ -1,0 +1,57 @@
+.whoiam {
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.profileImage {
+  border-radius: 50%;.
+  width: 25vw;
+  height: 25vh;
+  border: 2px solid black;
+  margin-bottom: 50px;
+}
+
+.whoiam p {
+  color: #666666;
+  margin: 0 auto 1em;
+  font-size: 1.4em;
+  letter-spacing: 0.04em;
+  line-height: 1.7em;
+  font-weight: 300;
+  padding: 0 15%;
+}
+
+.small {
+  font-size: 1em!important;
+  letter-spacing: 0.25em!important;
+  text-transform: uppercase;
+}
+
+.work img {
+  width: 60%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.delta {
+  height: 100%;
+}
+
+.phaseone {
+  width: 75%!important;
+}
+
+.bell {
+  width: 50%!important;
+}
+
+.details {
+  font-size: 1em!important;
+  margin: 1em auto 0!important;
+}

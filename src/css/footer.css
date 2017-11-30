@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: gray;
+  background-color: #ECECEC;
+  padding: 3em 0 3em;
+}
+
+.footer ul {
+	list-style: none;
+  padding-left: 0;
+}
+
+.footer li{
+	display: inline;
+}
+
+.footer .fa-github, .footer .fa-linkedin {
+	font-size: 3.5em;
+  padding: 1em 2em;
+  color: lightgray;
+}
+
+.footer .fa-github:hover {
+  color: black;
+}
+
+.footer .fa-linkedin:hover {
+  color: #007bb6;
+}
+
+.footer p {
+  color: #bdbdbd;
+  margin-bottom: 2px;
+}
