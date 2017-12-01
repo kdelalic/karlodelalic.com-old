@@ -14,7 +14,7 @@ export default class WhatIveDone extends Component {
           <Row>
             <Col xs="8">
               <Row>
-                <h5>Shuffle | ReactJS Web App <a target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/Shuffle"><FontAwesome name="github"/></a></h5>
+                <h5>Shuffle | ReactJS Web App <a target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/Shuffle"><FontAwesome name="github"/></a> <a target="_blank" rel="noopener noreferrer" href="https://goofy-hawking-3c9875.netlify.com/"><FontAwesome name="external-link"/></a></h5>
                 <p>A redevelopment of an open source YouTube shuffling app. Made using software engineering principles and design philosophy in mind.</p>
               </Row>
               <Row>
