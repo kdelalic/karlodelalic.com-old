@@ -16,7 +16,7 @@ export default class Contact extends Component {
           <Button href="mailto:delalik@mcmaster.ca" outline color="secondary">Say Hi!<FontAwesome name="envelope-o"/></Button>
           <div className="dash"></div>
           <h3 className="resume">Here's my RESUMÉ</h3>
-          <Button href="http://karlodelalic.com/resume/Karlo_Delalic_Resume.pdf" target="_blank" rel="noopener noreferrer" outline color="secondary">Resumé<FontAwesome name="file-pdf-o"/></Button>
+          <Button href="https://karlodelalic.com/resume/Karlo_Delalic_Resume.pdf" target="_blank" rel="noopener noreferrer" outline color="secondary">Resumé<FontAwesome name="file-pdf-o"/></Button>
         </Container>
       </div>
     );

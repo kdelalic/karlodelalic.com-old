@@ -58,7 +58,7 @@ const params = {
       },
       move: {
         enable: true,
-        speed: 0.5,
+        speed: 1,
         direction: "none",
         random: true,
         straight: false,
@@ -75,11 +75,11 @@ const params = {
       detect_on: "canvas",
       events: {
         onhover: {
-          enable: true,
+          enable: false,
           mode: "bubble"
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: "repulse"
         },
         resize: true
