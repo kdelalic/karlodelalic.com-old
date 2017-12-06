@@ -15,6 +15,7 @@ export default class Footer extends Component {
           <ul>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/kdelalic/"><FontAwesome name="github"/></a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/kdelalic/"><FontAwesome name="linkedin"/></a></li>
+            <li><a target="_blank" rel="noopener noreferrer"href="mailto:delalik@mcmaster.ca"><FontAwesome name="envelope-o"/></a></li>
           </ul>
           <p>Karlo Delalic 2017</p>
           <p>Made with React, Bootstrap, Font Awesome, and lots of <FontAwesome name="heart-o"/></p>

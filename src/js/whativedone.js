@@ -38,7 +38,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">Java</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={90} />
+                    <Progress striped animated value={90} />
                   </Col>
                 </Row>
                 <Row>
@@ -46,7 +46,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">JS</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={85} />
+                    <Progress striped animated value={85} />
                   </Col>
                 </Row>
                 <Row>
@@ -54,7 +54,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">HTML</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={95} />
+                    <Progress striped animated value={95} />
                   </Col>
                 </Row>
                 <Row>
@@ -62,7 +62,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">CSS</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={90} />
+                    <Progress striped animated value={90} />
                   </Col>
                 </Row>
                 <Row>
@@ -70,7 +70,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">ReactJS</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={63} />
+                    <Progress striped animated value={63} />
                   </Col>
                 </Row>
                 <Row>
@@ -78,7 +78,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">Python</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={70} />
+                    <Progress striped animated value={70} />
                   </Col>
                 </Row>
                 <Row>
@@ -86,7 +86,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">Latex</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={74} />
+                    <Progress striped animated value={74} />
                   </Col>
                 </Row>
                 <Row>
@@ -94,7 +94,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">DB2</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={50} />
+                    <Progress striped animated value={50} />
                   </Col>
                 </Row>
                 <Row>
@@ -102,7 +102,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">NASM</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={40} />
+                    <Progress striped animated value={40} />
                   </Col>
                 </Row>
                 <Row>
@@ -110,7 +110,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">NodeJS</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={35} />
+                    <Progress striped animated value={35} />
                   </Col>
                 </Row>
                 <Row>
@@ -118,7 +118,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">Bash</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={48} />
+                    <Progress striped animated value={48} />
                   </Col>
                 </Row>
                 <Row>
@@ -126,7 +126,7 @@ export default class WhatIveDone extends Component {
                     <p className="skill">Billiards</p>
                   </Col>
                   <Col xs="9">
-                    <Progress value={100} />
+                    <Progress striped animated value={100} />
                   </Col>
                 </Row>
               </div>

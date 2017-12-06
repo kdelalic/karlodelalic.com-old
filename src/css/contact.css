@@ -52,3 +52,10 @@
 .contact .fa-envelope-o, .contact .fa-file-pdf-o {
   margin-left: 10px;
 }
+
+@media screen and (max-width: 800px) {
+  .contact .container {
+    max-width: 90%;
+    padding: 0;
+  }
+}

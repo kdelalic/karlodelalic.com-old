@@ -2,6 +2,11 @@
 	text-align: center;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 html {
 	line-height: 0;
 	font-size: 14px;
@@ -40,10 +45,10 @@ h4 {
 
 h5 {
 	font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 	line-height: 1.1;
 	font-weight: 300;
 	margin-bottom: 1em;

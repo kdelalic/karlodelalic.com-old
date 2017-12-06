@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../css/whatido.css';
 import FontAwesome from'react-fontawesome';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class WhoIAm extends Component {
 
@@ -12,7 +14,7 @@ export default class WhoIAm extends Component {
           <h3>What I do</h3>
           <div className="dash"></div>
           <Row>
-            <Col className="padding">
+            <Col className="padding dev">
               <div className="centerWrapper">
                 <FontAwesome name="code"/>
                 <h4>Development</h4>
@@ -20,19 +22,24 @@ export default class WhoIAm extends Component {
             </Col>
             <Col>
               <div className="centerWrapper">
-                <p>Programming Languages: Java, Python, C</p>
-                <p>Web Technologies: Javascript, ReactJS, Git, DB2, NodeJS, CSS, HTML</p>
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true} offset={700}>
+                  <p>Programming Languages: Java, Python, C</p>
+                  <p>Web Technologies: Javascript, ReactJS, Git, DB2, NodeJS, CSS, HTML</p>
+                </ScrollAnimation>
               </div>
             </Col>
           </Row>    
-          <Row>
-            <Col>
+          <Row className="reorder">
+            <Col className="first">
               <div className="centerWrapper">
-                <p>I'm  <a target="_blank" rel="noopener noreferrer" href="https://www.16personalities.com/istp-personality">ISTP-T</a>. Besides coding, working out, learning, and playing CS:GO, I do my utmost best to better myself and the world around me everyday.</p>
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true} offset={700}>
+                  <p>I'm  <a target="_blank" rel="noopener noreferrer" href="https://www.16personalities.com/istp-personality">ISTP-T</a>. Besides coding, working out, learning, and playing CS:GO, I do my utmost best to better myself and the world around me everyday.</p>
+                </ScrollAnimation>
               </div>
             </Col>
-            <Col className="padding">
+            <Col className="padding second">
               <div className="centerWrapper">
+
                 <FontAwesome name="globe"/>
                 <h4>The World</h4>
               </div>
@@ -47,7 +54,9 @@ export default class WhoIAm extends Component {
             </Col>
             <Col>
               <div className="centerWrapper">
-                <p>Coming soon!</p>
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true} offset={700}>
+                  <p className="coming">Coming soon!</p>
+                </ScrollAnimation>
               </div>
             </Col>
           </Row> 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../css/particles.css';
-import Particles from 'react-particles-js';
+/*import Particles from 'react-particles-js';*/
 
-const params = {
+/*const params = {
     particles: {
       number: {
-        value: 200,
+        value: 250,
         density: {
           enable: true,
           value_area: 800
@@ -34,18 +34,18 @@ const params = {
         random: true,
         anim: {
           enable: true,
-          speed: 1,
+          speed: 2,
           opacity_min: 0,
           sync: false
         }
       },
       size: {
-        value: 3,
+        value: 2.5,
         random: true,
         anim: {
          enable: false,
           speed: 4,
-          size_min: 0.3,
+          size_min: 0.01,
           sync: false
         }
       },
@@ -58,7 +58,7 @@ const params = {
       },
       move: {
         enable: true,
-        speed: 1,
+        speed: 0.1,
         direction: "none",
         random: true,
         straight: false,
@@ -110,14 +110,17 @@ const params = {
         }
       }
     }
-  };
+  };*/
+
 
 export default class ParticlesBG extends Component {
 
   render() {
     return (
       <div className="particles">
-        <Particles className="particlesComp" params={params}/>
+        {/* <Particles className="particlesComp" params={params}/> */}
+        <div className="stars"></div>
+        <div className="twinkling"></div>
       </div>
     );
   }
